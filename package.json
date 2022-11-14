@@ -1,0 +1,24 @@
+{
+  "name": "pragmasoft-postgresql",
+  "version": "1.0.0",
+  "description": "programa Crud con authenticacion para pragmasoft",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "pragmasoft",
+    "restAPI",
+    "postgressql",
+    "sequelize"
+  ],
+  "author": "Lucas M Rodriguez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "pg": "^8.8.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.25.5"
+  }
+}
