@@ -1,0 +1,11 @@
+GET http://localhost:3000/series
+
+###
+
+POST http://localhost:3000/series
+###
+
+PUT  http://localhost:3000/series/id=1234
+###
+
+DELETE  http://localhost:3000/series/id=1234
