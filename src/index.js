@@ -3,7 +3,6 @@ import { sequelize } from "./database/database.js";
 import "./models/Series.js";
 
 
-
 async function main() {
   try {
     await sequelize.sync({force: false})

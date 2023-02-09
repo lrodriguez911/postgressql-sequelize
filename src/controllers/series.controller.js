@@ -4,7 +4,9 @@ export const getSeries = async (req, res) => {
   try {
     const series = await Series.findAll();
     res.json(series);
-  } catch (error) {}
+  } catch (error) {
+    return res.status(500).json({message: error.message})
+  }
 };
 export const createSerie = async (req, res) => {
   const {
